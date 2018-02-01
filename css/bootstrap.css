@@ -896,7 +896,8 @@ img {
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
-  height: auto;
+  height: 30px;
+  width: 30px;
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -4078,7 +4079,7 @@ a.badge:focus {
   font-size: 30px;
   font-weight: 300;
   color: ivory;
-  text-shadow: -1px -1px 5 black;
+  text-shadow: -1px 2px 2px black;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4113,10 +4114,16 @@ a.badge:focus {
 		
   }
 }
-.thumbnail {
+.thumbnail:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
   display: block;
-  padding: 4px;
-  margin-bottom: 20px;
+  z-index: 999;
+  padding: 1px;
+  margin-bottom: 1px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;

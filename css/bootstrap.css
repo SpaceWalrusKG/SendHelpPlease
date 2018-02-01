@@ -3993,7 +3993,7 @@ a.badge:focus {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 1px;
-  background-image: url(../images/Costa-Smeralda-1.jpg);
+  background-image:;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 50% 0%;
@@ -7387,11 +7387,14 @@ pre code {
 @media (min-width: 992px) {
   .container {
     width: 970px;
+	background-color: white;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container1 {
     width: 1170px;
+	background-color: red;
+	
   }
 }
 .container-fluid {
@@ -7399,10 +7402,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-.WWD {
-	background-image: url(../images/ocean.jpg);
-	margin
 }
 .row {
   margin-right: -15px;
@@ -10793,6 +10792,7 @@ a.badge:focus {
   .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
+	background-color: black;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -12558,3 +12558,5 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 >>>>>>> e3d7372bb43c14968f27015693d31ff9246fffa2
+.container2 {
+}
